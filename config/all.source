@@ -1,0 +1,3 @@
+SCM_SOURCE=https://github.com/docker-library/golang.git
+SCM_TARGET=modules/$PROJECT
+SCM_COMMIT=7d56a9b06df80afc991292afdcbba7a6124ad8cc
