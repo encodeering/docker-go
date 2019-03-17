@@ -7,4 +7,4 @@ import com.encodeering.ci.docker
 
 ./build-${BASE}.sh
 
-docker-verify go version
+docker-verify go version | dup | contains "go${VERSION}"
