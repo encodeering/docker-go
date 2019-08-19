@@ -6,9 +6,9 @@
 
 - https://hub.docker.com/r/encodeering/go-armhf/
 
-    ```docker pull encodeering/go-armhf:1.9-debian```  
+    ```docker pull encodeering/go-armhf:1.11-debian```  
 
 - https://hub.docker.com/r/encodeering/go-amd64/
 
-    ```docker pull encodeering/go-amd64:1.9-debian```  
-    ```docker pull encodeering/go-amd64:1.9-alpine```
+    ```docker pull encodeering/go-amd64:1.11-debian```  
+    ```docker pull encodeering/go-amd64:1.11-alpine```
