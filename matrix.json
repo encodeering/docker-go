@@ -1,0 +1,12 @@
+{
+    "concourse": {
+        "dind": "0.1.17"
+    },
+    "platforms": ["amd64", "armhf"],
+    "pipelines": [
+        { "project": "go", "base": "debian", "version": "1.22", "variant": "" },
+        { "project": "go", "base": "debian", "version": "1.23", "variant": "" },
+        { "project": "go", "base": "alpine", "version": "1.22", "variant": "" },
+        { "project": "go", "base": "alpine", "version": "1.23", "variant": "" }
+    ]
+}
